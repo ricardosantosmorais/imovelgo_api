@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+    <Folder Include="UseCases\" />
+    <Folder Include="UseCases\GetAccountDetail\" />
+    <Folder Include="Exception\" />
+    <Folder Include="UseCases\GetCompanyDetailById\" />
+    <Folder Include="UseCases\GetCompanyDetailByDomain\" />
+    <Folder Include="Common\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="UseCases\GetAllCity\" />
+    <Folder Include="UseCases\GetFeaturedPropertiesByCompany\" />
+    <Folder Include="UseCases\GetReviewsByCompany\" />
+    <Folder Include="UseCases\GetPopularPropertiesByCompany\" />
+    <Folder Include="UseCases\GetPostFeaturedByCompany\" />
+    <Folder Include="UseCases\RegisterAccount\" />
+    <Folder Include="UseCases\Login\" />
+    <Folder Include="UseCases\SearchPropertiesByCompany\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ImovelGo.Core\ImovelGo.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="2.1.0" />
+  </ItemGroup>
+</Project>

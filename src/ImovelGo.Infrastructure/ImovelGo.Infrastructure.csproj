@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="Autofac.Configuration" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.0.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.6" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Dapper" Version="2.0.30" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EntityFrameworkDataAccess\" />
+    <Folder Include="EntityFrameworkDataAccess\Entities\" />
+    <Folder Include="EntityFrameworkDataAccess\Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ImovelGo.Application\ImovelGo.Application.csproj" />
+    <ProjectReference Include="..\ImovelGo.Core\ImovelGo.Core.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImovelGo.Infrastructure", "ImovelGo.Infrastructure\ImovelGo.Infrastructure.csproj", "{D58249D8-DB46-467C-9333-67D5F0EF18A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImovelGo.Application", "ImovelGo.Application\ImovelGo.Application.csproj", "{311EF7AB-4F1E-4074-83DE-20E3A238C173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImovelGo.WebApi", "ImovelGo.WebApi\ImovelGo.WebApi.csproj", "{B091CDDE-053E-4B93-8735-70501B728D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImovelGo.Core", "ImovelGo.Core\ImovelGo.Core.csproj", "{06D31633-2362-42AE-A729-97F0E57E2A22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D58249D8-DB46-467C-9333-67D5F0EF18A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58249D8-DB46-467C-9333-67D5F0EF18A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58249D8-DB46-467C-9333-67D5F0EF18A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58249D8-DB46-467C-9333-67D5F0EF18A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311EF7AB-4F1E-4074-83DE-20E3A238C173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311EF7AB-4F1E-4074-83DE-20E3A238C173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311EF7AB-4F1E-4074-83DE-20E3A238C173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311EF7AB-4F1E-4074-83DE-20E3A238C173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B091CDDE-053E-4B93-8735-70501B728D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B091CDDE-053E-4B93-8735-70501B728D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B091CDDE-053E-4B93-8735-70501B728D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B091CDDE-053E-4B93-8735-70501B728D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D31633-2362-42AE-A729-97F0E57E2A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D31633-2362-42AE-A729-97F0E57E2A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D31633-2362-42AE-A729-97F0E57E2A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D31633-2362-42AE-A729-97F0E57E2A22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

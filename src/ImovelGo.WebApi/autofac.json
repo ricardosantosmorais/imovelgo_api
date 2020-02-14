@@ -1,0 +1,21 @@
+﻿{
+  "defaultAssembly": "ImovelGo.Infrastructure",
+  "modules": [
+    {
+      "type": "ImovelGo.WebApi.WebApiModule,ImovelGo.WebApi",
+      "properties": {
+      }
+    },
+    {
+      "type": "ImovelGo.Infrastructure.ApplicationModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "ImovelGo.Infrastructure.EntityFrameworkDataAccess.EntityFrameworkModule",
+      "properties": {
+        "ConnectionString": "Server=127.0.0.1;Database=imovelgo;User Id=root;Password=123mudar;"
+      }
+    }
+  ]
+}
